@@ -1,0 +1,118 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+body {
+  font-family: sans-serif;
+}
+.question-name {
+    align-items: center;
+    background-image: url(mondo.png);
+    display: flex;
+    height: 425px;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+ 
+  img {
+     height: 200px;
+    width: 200px;
+}
+.choice-grid {
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+   
+  }
+
+  .checkbox{
+    display: flex;
+
+    align-items:flex-start;
+    flex-direction:row;
+  }
+  .choice-grid div {
+    background-color:#f4f4f4;
+    border: 1px solid #dcdcdc;
+    width: 32,5%;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  @media (max-width: 500px) {
+    .choice-grid div {
+        width: 49%;
+      }
+      
+    }
+
+    @media (max-width: 700px) {
+      article{
+          width: 95%;
+          margin: auto;
+      }
+      header div{
+          display: none;
+      }
+        }
+.opacizza {
+  opacity: 0.6;
+
+}
+
+.risultato {
+  margin-top:40px;
+ margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+#result:hover {
+  background-color: #e0e0e0;
+}
+#contenuto {
+  padding-top: 18px;
+ padding-bottom: 18px;
+}
+
+.Restart {
+  height:50px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #cecece;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.hidden {
+  display: none;
+}
+#titolo {
+  font-style: normal;
+  font-size: 50px;
+}
+
+.photo {
+
+  width: 100px;
+  height: auto;
+
+}
+
+.text{
+  font-size: small;
+}
+
+.sistemazione {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
